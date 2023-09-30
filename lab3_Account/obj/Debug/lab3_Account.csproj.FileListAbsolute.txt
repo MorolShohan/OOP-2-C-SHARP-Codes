@@ -1,0 +1,7 @@
+D:\ALL CODES\C#\lab3_Account\bin\Debug\lab3_Account.exe.config
+D:\ALL CODES\C#\lab3_Account\bin\Debug\lab3_Account.exe
+D:\ALL CODES\C#\lab3_Account\bin\Debug\lab3_Account.pdb
+D:\ALL CODES\C#\lab3_Account\obj\Debug\lab3_Account.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\lab3_Account\obj\Debug\lab3_Account.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\lab3_Account\obj\Debug\lab3_Account.exe
+D:\ALL CODES\C#\lab3_Account\obj\Debug\lab3_Account.pdb

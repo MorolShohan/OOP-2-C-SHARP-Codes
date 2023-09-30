@@ -1,0 +1,7 @@
+D:\ALL CODES\C#\FoorLoop\bin\Debug\FoorLoop.exe.config
+D:\ALL CODES\C#\FoorLoop\bin\Debug\FoorLoop.exe
+D:\ALL CODES\C#\FoorLoop\bin\Debug\FoorLoop.pdb
+D:\ALL CODES\C#\FoorLoop\obj\Debug\FoorLoop.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\FoorLoop\obj\Debug\FoorLoop.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\FoorLoop\obj\Debug\FoorLoop.exe
+D:\ALL CODES\C#\FoorLoop\obj\Debug\FoorLoop.pdb

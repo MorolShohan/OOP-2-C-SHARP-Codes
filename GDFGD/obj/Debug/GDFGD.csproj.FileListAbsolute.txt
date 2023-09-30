@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\GDFGD\bin\Debug\GDFGD.exe.config
+D:\ALL CODES\C#\GDFGD\bin\Debug\GDFGD.exe
+D:\ALL CODES\C#\GDFGD\bin\Debug\GDFGD.pdb
+D:\ALL CODES\C#\GDFGD\obj\Debug\GDFGD.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\GDFGD\obj\Debug\GDFGD.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\GDFGD\obj\Debug\GDFGD.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\GDFGD\obj\Debug\GDFGD.exe
+D:\ALL CODES\C#\GDFGD\obj\Debug\GDFGD.pdb

@@ -1,0 +1,7 @@
+D:\ALL CODES\C#\Week3CharpLabTask1\bin\Debug\Week3CharpLabTask1.exe.config
+D:\ALL CODES\C#\Week3CharpLabTask1\bin\Debug\Week3CharpLabTask1.exe
+D:\ALL CODES\C#\Week3CharpLabTask1\bin\Debug\Week3CharpLabTask1.pdb
+D:\ALL CODES\C#\Week3CharpLabTask1\obj\Debug\Week3CharpLabTask1.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\Week3CharpLabTask1\obj\Debug\Week3CharpLabTask1.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\Week3CharpLabTask1\obj\Debug\Week3CharpLabTask1.exe
+D:\ALL CODES\C#\Week3CharpLabTask1\obj\Debug\Week3CharpLabTask1.pdb

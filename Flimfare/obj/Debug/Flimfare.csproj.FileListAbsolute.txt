@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\Flimfare\obj\Debug\Flimfare.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\Flimfare\obj\Debug\Flimfare.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\Flimfare\bin\Debug\Flimfare.exe.config
+D:\ALL CODES\C#\Flimfare\bin\Debug\Flimfare.exe
+D:\ALL CODES\C#\Flimfare\bin\Debug\Flimfare.pdb
+D:\ALL CODES\C#\Flimfare\obj\Debug\Flimfare.exe
+D:\ALL CODES\C#\Flimfare\obj\Debug\Flimfare.pdb
+D:\ALL CODES\C#\Flimfare\obj\Debug\Flimfare.csproj.AssemblyReference.cache

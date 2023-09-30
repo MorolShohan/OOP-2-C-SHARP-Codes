@@ -1,0 +1,7 @@
+D:\ALL CODES\C#\Lab4_Book\bin\Debug\Lab4_Book.exe.config
+D:\ALL CODES\C#\Lab4_Book\bin\Debug\Lab4_Book.exe
+D:\ALL CODES\C#\Lab4_Book\bin\Debug\Lab4_Book.pdb
+D:\ALL CODES\C#\Lab4_Book\obj\Debug\Lab4_Book.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\Lab4_Book\obj\Debug\Lab4_Book.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\Lab4_Book\obj\Debug\Lab4_Book.exe
+D:\ALL CODES\C#\Lab4_Book\obj\Debug\Lab4_Book.pdb

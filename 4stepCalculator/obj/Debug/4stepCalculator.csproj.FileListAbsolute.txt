@@ -1,0 +1,7 @@
+D:\ALL CODES\C#\4stepCalculator\obj\Debug\4stepCalculator.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\4stepCalculator\obj\Debug\4stepCalculator.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\4stepCalculator\bin\Debug\4stepCalculator.exe.config
+D:\ALL CODES\C#\4stepCalculator\bin\Debug\4stepCalculator.exe
+D:\ALL CODES\C#\4stepCalculator\bin\Debug\4stepCalculator.pdb
+D:\ALL CODES\C#\4stepCalculator\obj\Debug\4stepCalculator.exe
+D:\ALL CODES\C#\4stepCalculator\obj\Debug\4stepCalculator.pdb

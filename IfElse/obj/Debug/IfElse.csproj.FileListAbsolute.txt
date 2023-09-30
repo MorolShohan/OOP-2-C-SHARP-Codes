@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\IfElse\bin\Debug\IfElse.exe.config
+D:\ALL CODES\C#\IfElse\bin\Debug\IfElse.exe
+D:\ALL CODES\C#\IfElse\bin\Debug\IfElse.pdb
+D:\ALL CODES\C#\IfElse\obj\Debug\IfElse.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\IfElse\obj\Debug\IfElse.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\IfElse\obj\Debug\IfElse.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\IfElse\obj\Debug\IfElse.exe
+D:\ALL CODES\C#\IfElse\obj\Debug\IfElse.pdb

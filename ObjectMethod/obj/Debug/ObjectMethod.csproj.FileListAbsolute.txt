@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\ObjectMethod\bin\Debug\ObjectMethod.exe.config
+D:\ALL CODES\C#\ObjectMethod\bin\Debug\ObjectMethod.exe
+D:\ALL CODES\C#\ObjectMethod\bin\Debug\ObjectMethod.pdb
+D:\ALL CODES\C#\ObjectMethod\obj\Debug\ObjectMethod.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\ObjectMethod\obj\Debug\ObjectMethod.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\ObjectMethod\obj\Debug\ObjectMethod.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\ObjectMethod\obj\Debug\ObjectMethod.exe
+D:\ALL CODES\C#\ObjectMethod\obj\Debug\ObjectMethod.pdb

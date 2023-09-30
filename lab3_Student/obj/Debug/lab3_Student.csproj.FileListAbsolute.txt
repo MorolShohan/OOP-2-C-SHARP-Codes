@@ -1,0 +1,3 @@
+D:\ALL CODES\C#\lab3_Student\obj\Debug\lab3_Student.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\lab3_Student\obj\Debug\lab3_Student.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\lab3_Student\obj\Debug\lab3_Student.csproj.CoreCompileInputs.cache

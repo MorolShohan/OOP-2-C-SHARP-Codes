@@ -1,0 +1,7 @@
+D:\ALL CODES\C#\2D_Array\obj\Debug\2D_Array.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\2D_Array\obj\Debug\2D_Array.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\2D_Array\bin\Debug\2D_Array.exe.config
+D:\ALL CODES\C#\2D_Array\bin\Debug\2D_Array.exe
+D:\ALL CODES\C#\2D_Array\bin\Debug\2D_Array.pdb
+D:\ALL CODES\C#\2D_Array\obj\Debug\2D_Array.exe
+D:\ALL CODES\C#\2D_Array\obj\Debug\2D_Array.pdb

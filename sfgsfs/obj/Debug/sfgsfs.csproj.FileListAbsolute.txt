@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\sfgsfs\obj\Debug\sfgsfs.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\sfgsfs\obj\Debug\sfgsfs.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\sfgsfs\obj\Debug\sfgsfs.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\sfgsfs\bin\Debug\sfgsfs.exe.config
+D:\ALL CODES\C#\sfgsfs\bin\Debug\sfgsfs.exe
+D:\ALL CODES\C#\sfgsfs\bin\Debug\sfgsfs.pdb
+D:\ALL CODES\C#\sfgsfs\obj\Debug\sfgsfs.exe
+D:\ALL CODES\C#\sfgsfs\obj\Debug\sfgsfs.pdb

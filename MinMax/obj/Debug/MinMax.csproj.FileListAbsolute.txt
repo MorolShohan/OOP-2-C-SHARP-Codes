@@ -1,0 +1,7 @@
+D:\ALL CODES\C#\MinMax\bin\Debug\MinMax.exe.config
+D:\ALL CODES\C#\MinMax\bin\Debug\MinMax.exe
+D:\ALL CODES\C#\MinMax\bin\Debug\MinMax.pdb
+D:\ALL CODES\C#\MinMax\obj\Debug\MinMax.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\MinMax\obj\Debug\MinMax.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\MinMax\obj\Debug\MinMax.exe
+D:\ALL CODES\C#\MinMax\obj\Debug\MinMax.pdb

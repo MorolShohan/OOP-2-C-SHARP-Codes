@@ -1,0 +1,7 @@
+D:\ALL CODES\C#\lab4_Mobile\bin\Debug\lab4_Mobile.exe.config
+D:\ALL CODES\C#\lab4_Mobile\bin\Debug\lab4_Mobile.exe
+D:\ALL CODES\C#\lab4_Mobile\bin\Debug\lab4_Mobile.pdb
+D:\ALL CODES\C#\lab4_Mobile\obj\Debug\lab4_Mobile.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\lab4_Mobile\obj\Debug\lab4_Mobile.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\lab4_Mobile\obj\Debug\lab4_Mobile.exe
+D:\ALL CODES\C#\lab4_Mobile\obj\Debug\lab4_Mobile.pdb

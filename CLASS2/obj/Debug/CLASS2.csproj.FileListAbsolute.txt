@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\CLASS2\bin\Debug\CLASS2.exe.config
+D:\ALL CODES\C#\CLASS2\bin\Debug\CLASS2.exe
+D:\ALL CODES\C#\CLASS2\bin\Debug\CLASS2.pdb
+D:\ALL CODES\C#\CLASS2\obj\Debug\CLASS2.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\CLASS2\obj\Debug\CLASS2.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\CLASS2\obj\Debug\CLASS2.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\CLASS2\obj\Debug\CLASS2.exe
+D:\ALL CODES\C#\CLASS2\obj\Debug\CLASS2.pdb

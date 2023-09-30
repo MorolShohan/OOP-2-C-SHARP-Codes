@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\Week3CSharp\bin\Debug\Week3CSharp.exe.config
+D:\ALL CODES\C#\Week3CSharp\bin\Debug\Week3CSharp.exe
+D:\ALL CODES\C#\Week3CSharp\bin\Debug\Week3CSharp.pdb
+D:\ALL CODES\C#\Week3CSharp\obj\Debug\Week3CSharp.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\Week3CSharp\obj\Debug\Week3CSharp.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\Week3CSharp\obj\Debug\Week3CSharp.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\Week3CSharp\obj\Debug\Week3CSharp.exe
+D:\ALL CODES\C#\Week3CSharp\obj\Debug\Week3CSharp.pdb

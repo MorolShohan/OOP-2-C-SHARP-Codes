@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\Inheritance\bin\Debug\Inheritance.exe.config
+D:\ALL CODES\C#\Inheritance\bin\Debug\Inheritance.exe
+D:\ALL CODES\C#\Inheritance\bin\Debug\Inheritance.pdb
+D:\ALL CODES\C#\Inheritance\obj\Debug\Inheritance.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\Inheritance\obj\Debug\Inheritance.exe
+D:\ALL CODES\C#\Inheritance\obj\Debug\Inheritance.pdb
+D:\ALL CODES\C#\Inheritance\obj\Debug\Inheritance.csproj.AssemblyReference.cache

@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\lab4_1\bin\Debug\lab4_1.exe.config
+D:\ALL CODES\C#\lab4_1\bin\Debug\lab4_1.exe
+D:\ALL CODES\C#\lab4_1\bin\Debug\lab4_1.pdb
+D:\ALL CODES\C#\lab4_1\obj\Debug\lab4_1.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\lab4_1\obj\Debug\lab4_1.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\lab4_1\obj\Debug\lab4_1.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\lab4_1\obj\Debug\lab4_1.exe
+D:\ALL CODES\C#\lab4_1\obj\Debug\lab4_1.pdb

@@ -1,0 +1,7 @@
+D:\ALL CODES\C#\lab4_Course\obj\Debug\lab4_Course.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\lab4_Course\obj\Debug\lab4_Course.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\lab4_Course\bin\Debug\lab4_Course.exe.config
+D:\ALL CODES\C#\lab4_Course\bin\Debug\lab4_Course.exe
+D:\ALL CODES\C#\lab4_Course\bin\Debug\lab4_Course.pdb
+D:\ALL CODES\C#\lab4_Course\obj\Debug\lab4_Course.exe
+D:\ALL CODES\C#\lab4_Course\obj\Debug\lab4_Course.pdb

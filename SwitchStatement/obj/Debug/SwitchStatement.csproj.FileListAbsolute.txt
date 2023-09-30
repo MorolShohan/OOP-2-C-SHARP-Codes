@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\SwitchStatement\bin\Debug\SwitchStatement.exe.config
+D:\ALL CODES\C#\SwitchStatement\bin\Debug\SwitchStatement.exe
+D:\ALL CODES\C#\SwitchStatement\bin\Debug\SwitchStatement.pdb
+D:\ALL CODES\C#\SwitchStatement\obj\Debug\SwitchStatement.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\SwitchStatement\obj\Debug\SwitchStatement.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\SwitchStatement\obj\Debug\SwitchStatement.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\SwitchStatement\obj\Debug\SwitchStatement.exe
+D:\ALL CODES\C#\SwitchStatement\obj\Debug\SwitchStatement.pdb

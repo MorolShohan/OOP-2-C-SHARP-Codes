@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\midmubarak\bin\Debug\midmubarak.exe.config
+D:\ALL CODES\C#\midmubarak\bin\Debug\midmubarak.exe
+D:\ALL CODES\C#\midmubarak\bin\Debug\midmubarak.pdb
+D:\ALL CODES\C#\midmubarak\obj\Debug\midmubarak.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\midmubarak\obj\Debug\midmubarak.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\midmubarak\obj\Debug\midmubarak.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\midmubarak\obj\Debug\midmubarak.exe
+D:\ALL CODES\C#\midmubarak\obj\Debug\midmubarak.pdb

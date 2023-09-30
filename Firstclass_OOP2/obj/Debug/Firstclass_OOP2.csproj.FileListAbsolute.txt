@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\Firstclass_OOP2\bin\Debug\Firstclass_OOP2.exe.config
+D:\ALL CODES\C#\Firstclass_OOP2\bin\Debug\Firstclass_OOP2.exe
+D:\ALL CODES\C#\Firstclass_OOP2\bin\Debug\Firstclass_OOP2.pdb
+D:\ALL CODES\C#\Firstclass_OOP2\obj\Debug\Firstclass_OOP2.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\Firstclass_OOP2\obj\Debug\Firstclass_OOP2.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\Firstclass_OOP2\obj\Debug\Firstclass_OOP2.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\Firstclass_OOP2\obj\Debug\Firstclass_OOP2.exe
+D:\ALL CODES\C#\Firstclass_OOP2\obj\Debug\Firstclass_OOP2.pdb

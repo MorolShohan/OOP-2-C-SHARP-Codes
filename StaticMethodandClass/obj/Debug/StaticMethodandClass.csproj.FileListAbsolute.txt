@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\StaticMethodandClass\bin\Debug\StaticMethodandClass.exe.config
+D:\ALL CODES\C#\StaticMethodandClass\bin\Debug\StaticMethodandClass.exe
+D:\ALL CODES\C#\StaticMethodandClass\bin\Debug\StaticMethodandClass.pdb
+D:\ALL CODES\C#\StaticMethodandClass\obj\Debug\StaticMethodandClass.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\StaticMethodandClass\obj\Debug\StaticMethodandClass.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\StaticMethodandClass\obj\Debug\StaticMethodandClass.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\StaticMethodandClass\obj\Debug\StaticMethodandClass.exe
+D:\ALL CODES\C#\StaticMethodandClass\obj\Debug\StaticMethodandClass.pdb

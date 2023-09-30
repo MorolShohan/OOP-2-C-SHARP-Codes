@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\Week3Task2\obj\Debug\Week3Task2.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\Week3Task2\obj\Debug\Week3Task2.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\Week3Task2\bin\Debug\Week3Task2.exe.config
+D:\ALL CODES\C#\Week3Task2\bin\Debug\Week3Task2.exe
+D:\ALL CODES\C#\Week3Task2\bin\Debug\Week3Task2.pdb
+D:\ALL CODES\C#\Week3Task2\obj\Debug\Week3Task2.exe
+D:\ALL CODES\C#\Week3Task2\obj\Debug\Week3Task2.pdb
+D:\ALL CODES\C#\Week3Task2\obj\Debug\Week3Task2.csproj.AssemblyReference.cache

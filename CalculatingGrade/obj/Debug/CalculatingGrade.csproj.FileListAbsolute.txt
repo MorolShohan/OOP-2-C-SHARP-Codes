@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\CalculatingGrade\bin\Debug\CalculatingGrade.exe.config
+D:\ALL CODES\C#\CalculatingGrade\bin\Debug\CalculatingGrade.exe
+D:\ALL CODES\C#\CalculatingGrade\bin\Debug\CalculatingGrade.pdb
+D:\ALL CODES\C#\CalculatingGrade\obj\Debug\CalculatingGrade.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\CalculatingGrade\obj\Debug\CalculatingGrade.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\CalculatingGrade\obj\Debug\CalculatingGrade.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\CalculatingGrade\obj\Debug\CalculatingGrade.exe
+D:\ALL CODES\C#\CalculatingGrade\obj\Debug\CalculatingGrade.pdb

@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\lab3_Course\bin\Debug\lab3_Course.exe.config
+D:\ALL CODES\C#\lab3_Course\bin\Debug\lab3_Course.exe
+D:\ALL CODES\C#\lab3_Course\bin\Debug\lab3_Course.pdb
+D:\ALL CODES\C#\lab3_Course\obj\Debug\lab3_Course.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\lab3_Course\obj\Debug\lab3_Course.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\lab3_Course\obj\Debug\lab3_Course.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\lab3_Course\obj\Debug\lab3_Course.exe
+D:\ALL CODES\C#\lab3_Course\obj\Debug\lab3_Course.pdb

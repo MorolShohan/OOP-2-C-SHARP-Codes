@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "85c38428-649d-4b02-aefc-0219c9aa6173": {
+      "ProjectGuid": "85c38428-649d-4b02-aefc-0219c9aa6173",
+      "DisplayName": "WordGuessingGame",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

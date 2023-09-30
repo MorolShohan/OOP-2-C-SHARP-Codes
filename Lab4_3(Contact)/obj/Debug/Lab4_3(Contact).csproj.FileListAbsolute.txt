@@ -1,0 +1,7 @@
+D:\ALL CODES\C#\Lab4_3(Contact)\bin\Debug\Lab4_3(Contact).exe.config
+D:\ALL CODES\C#\Lab4_3(Contact)\bin\Debug\Lab4_3(Contact).exe
+D:\ALL CODES\C#\Lab4_3(Contact)\bin\Debug\Lab4_3(Contact).pdb
+D:\ALL CODES\C#\Lab4_3(Contact)\obj\Debug\Lab4_3(Contact).csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\Lab4_3(Contact)\obj\Debug\Lab4_3(Contact).csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\Lab4_3(Contact)\obj\Debug\Lab4_3(Contact).exe
+D:\ALL CODES\C#\Lab4_3(Contact)\obj\Debug\Lab4_3(Contact).pdb

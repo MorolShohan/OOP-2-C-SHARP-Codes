@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\lab3_Triangle\obj\Debug\lab3_Triangle.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\lab3_Triangle\obj\Debug\lab3_Triangle.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\lab3_Triangle\obj\Debug\lab3_Triangle.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\lab3_Triangle\bin\Debug\lab3_Triangle.exe.config
+D:\ALL CODES\C#\lab3_Triangle\bin\Debug\lab3_Triangle.exe
+D:\ALL CODES\C#\lab3_Triangle\bin\Debug\lab3_Triangle.pdb
+D:\ALL CODES\C#\lab3_Triangle\obj\Debug\lab3_Triangle.exe
+D:\ALL CODES\C#\lab3_Triangle\obj\Debug\lab3_Triangle.pdb

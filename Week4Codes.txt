@@ -1,0 +1,795 @@
+Lab4_1(Account)
+
+using System;
+
+
+namespace lab4_1
+{
+    class Account
+    {
+        private string accName;
+        private string acid;
+        private int balance;
+
+        public Account()
+        {
+            accName = "";
+            acid = "";
+            balance = 0;
+        }
+
+        public Account(string accName, string acid, int balance)
+        {
+            this.accName = accName;
+            this.acid = acid;
+            this.balance = balance;
+        }
+
+        public string AccountHolderName
+        {
+            set
+            {
+                this.accName = value;
+            }
+            get
+            {
+                return this.accName;
+            }
+        }
+
+        public string AccountID
+        {
+            set
+            {
+                this.acid = value;
+            }
+            get
+            {
+                return this.acid;
+            }
+        }
+
+        public int AccBalance
+        {
+            set
+            {
+                this.balance = value;
+            }
+            get
+            {
+                return this.balance;
+            }
+        }
+
+        public void deposit(int amount)
+        {
+            if (amount >= 0)
+            {
+                this.balance += amount;
+            }
+            else
+            {
+                Console.WriteLine("Amount cannot be zero");
+            }
+        }
+
+        public void withdraw(int amount)
+        {
+            if (amount <= this.balance)
+            {
+                this.balance -= amount;
+            }
+            else
+            {
+                Console.WriteLine("Insufficient amount to withdraw");
+            }
+        }
+
+        public void Transfer(int amount, Account a)
+        {
+            if (this.balance > amount)
+            {
+                this.balance -= amount;
+                a.balance += amount;
+            }
+            else if (amount == 0)
+            {
+                Console.WriteLine("Amount Cannot be Zero");
+            }
+            else
+            {
+                Console.WriteLine("Not Enough Funds Available to Transfer");
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+using System;
+
+
+namespace lab4_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Account p1 = new Account("Anika", "124", 55000);
+            Account p2 = new Account("Tashrif", "674", 75000);
+            Account p3 = new Account("Anila", "987", 84000);
+            Account p4 = new Account();
+            p4.AccountHolderName = "Raya";
+            p4.AccountID = "876";
+            p4.AccBalance = 65000;
+            Account p5 = new Account();
+            p5.AccountHolderName = "Orpa";
+            p5.AccountID = "512";
+            p5.AccBalance = 95000;
+            Console.WriteLine("Accounts\n");
+            Console.WriteLine("Initial Account 1");
+            Console.WriteLine("Account Creation Time and Date: {0}", DateTime.Now);
+            Console.WriteLine("Account Holder Name: {0}\nAccount Number : {1}\nInitial Balance : {2}\n", p1.AccountHolderName, p1.AccountID, p1.AccBalance);
+            Console.WriteLine("Initial Account 2");
+            Console.WriteLine("Account Creation Time and Date: {0}", DateTime.Now);
+            Console.WriteLine("Account Holder Name: {0}\nAccount Number : {1}\nInitial Balance : {2}\n", p2.AccountHolderName, p2.AccountID, p2.AccBalance);
+            Console.WriteLine("Initial Account 3");
+            Console.WriteLine("Account Creation Time and Date: {0}", DateTime.Now);
+            Console.WriteLine("Account Holder Name: {0}\nAccount Number : {1}\nInitial Balance : {2}\n", p3.AccountHolderName, p3.AccountID, p3.AccBalance);
+            Console.WriteLine("Initial Account 4");
+            Console.WriteLine("Account Creation Time and Date: {0}", DateTime.Now);
+            Console.WriteLine("Account Holder Name: {0}\nAccount Number : {1}\nInitial Balance : {2}\n", p4.AccountHolderName, p4.AccountID, p4.AccBalance);
+            Console.WriteLine("Initial Account 5");
+            Console.WriteLine("Account Creation Time and Date: {0}", DateTime.Now);
+            Console.WriteLine("Account Holder Name: {0}\nAccount Number : {1}\nInitial Balance : {2}\n", p5.AccountHolderName, p5.AccountID, p5.AccBalance);
+            Console.WriteLine("Transactions\n");
+            Console.WriteLine("Transferring 20000 from Account 1 to Account 2\n");
+            p1.Transfer(19500, p2);
+            Console.WriteLine("After Transaction Account 1");
+            Console.WriteLine("Transaction Time and Date: {0}", DateTime.Now);
+            Console.WriteLine("Account Holder Name: {0}\nAccount Number : {1}\nInitial Balance : {2}\n", p1.AccountHolderName, p1.AccountID, p1.AccBalance);
+            Console.WriteLine("After Transaction Account 2");
+            Console.WriteLine("Transaction Time and Date: {0}", DateTime.Now);
+            Console.WriteLine("Account Holder Name: {0}\nAccount Number : {1}\nInitial Balance : {2}\n", p2.AccountHolderName, p2.AccountID, p2.AccBalance);
+            Console.WriteLine("Transferring 10000 from Account 4 to Account 3\n");
+            p4.Transfer(15000, p3);
+            Console.WriteLine("After Transaction Account 3");
+            Console.WriteLine("Transaction Time and Date: {0}", DateTime.Now);
+            Console.WriteLine("Account Holder Name: {0}\nAccount Number : {1}\nInitial Balance : {2}\n", p3.AccountHolderName, p3.AccountID, p3.AccBalance);
+            Console.WriteLine("After Transaction Account 4");
+            Console.WriteLine("Transaction Time and Date: {0}", DateTime.Now);
+            Console.WriteLine("Account Holder Name: {0}\nAccount Number : {1}\nInitial Balance : {2}\n", p4.AccountHolderName, p4.AccountID, p4.AccBalance);
+            Console.WriteLine("Depositiong 15000 in Account 5\n");
+            p5.deposit(20000);
+            Console.WriteLine("After Transaction Account 5");
+            Console.WriteLine("Transaction Time and Date: {0}", DateTime.Now);
+            Console.WriteLine("Account Holder Name: {0}\nAccount Number : {1}\nInitial Balance : {2}\n", p5.AccountHolderName, p5.AccountID, p5.AccBalance);
+            Console.WriteLine("Withdrawing 5000 from Account 5\n");
+            p5.withdraw(7000);
+            Console.WriteLine("After Transaction Account 5");
+            Console.WriteLine("Transaction Time and Date: {0}", DateTime.Now);
+            Console.WriteLine("Account Holder Name: {0}\nAccount Number : {1}\nInitial Balance : {2}\n", p5.AccountHolderName, p5.AccountID, p5.AccBalance);
+
+        }
+    }
+}
+
+
+**********************************************************************************
+Lab4_2(Book)
+
+
+
+using System;
+
+
+namespace Lab4_Book
+{
+    class Book
+    {
+        private string bookName;
+        private string bookAuthor;
+        private string bookId;
+        private string bookType;
+        private int bookCopy;
+        private static int bookCounter = 0;
+
+        public Book()
+        {
+            bookName = "";
+            bookAuthor = "";
+            bookId = "";
+            bookType = "";
+            bookCopy = 0;
+            bookCounter++;
+        }
+
+        public Book(string bookName, string bookAuthor, string bookId, string bookType, int bookCopy)
+        {
+            this.bookName = bookName;
+            this.bookAuthor = bookAuthor;
+            this.bookId = bookId;
+            this.bookType = bookType;
+            this.bookCopy = bookCopy;
+            bookCounter++;
+        }
+
+        public string BookName
+        {
+            set
+            {
+                this.bookName = value;
+            }
+            get
+            {
+                return this.bookName;
+            }
+        }
+
+        public string BookAuthor
+        {
+            set
+            {
+                this.bookAuthor = value;
+            }
+            get
+            {
+                return this.bookAuthor;
+            }
+        }
+
+        public string BookID
+        {
+            set
+            {
+                this.bookId = value;
+            }
+            get
+            {
+                return this.bookId;
+            }
+        }
+
+        public string BookType
+        {
+            set
+            {
+                this.bookType = value;
+            }
+            get
+            {
+                return this.bookType;
+            }
+        }
+
+        public int BookCopy
+        {
+            set
+            {
+                this.bookCopy = value;
+            }
+            get
+            {
+                return this.bookCopy;
+            }
+        }
+
+        public void AddBookCopy(int x)
+        {
+            this.bookCopy += x;
+        }
+
+        public void ShowInfo()
+        {
+            Console.WriteLine("Book Name : {0}\nAuthor : {1}\nID : {2}\nType : {3}\nNumber of Copies : {4}\n", this.bookName, this.bookAuthor, this.bookId, this.bookType, this.bookCopy);
+        }
+
+        public static void showTotalBookInfo()
+        {
+            Console.WriteLine("Number of Books in the Library : {0}", bookCounter);
+        }
+
+
+    }
+}
+
+
+
+using System;
+
+
+namespace Lab4_Book
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Book b1 = new Book("Aronnok", "Bibhutibhushan Bandyopadhay", "245", "Novel", 90);
+            b1.AddBookCopy(50);
+            b1.ShowInfo();
+            
+
+            Book b2 = new Book();
+            b2.BookName = "Megher Upor Bari";
+            b2.BookAuthor = " Humayun Ahmed ";
+            b2.BookID = "834";
+            b2.BookType = "Novel";
+            b2.BookCopy = 100;
+            b2.AddBookCopy(50);
+            b2.ShowInfo();
+            Console.WriteLine();
+            Book.showTotalBookInfo();
+        }
+
+    }
+}
+
+
+*****************************************************************************************************
+Lab4_3(Contact)
+
+using System;
+
+
+namespace lab4_Contact
+{
+    class Contact
+    {
+        private string personName;
+        private string personId;
+        private int age;
+        private string mobileNumber;
+        private char gender;
+
+        public Contact()
+        {
+            personName = "";
+            personId = "";
+            age = 0;
+            mobileNumber = "";
+            gender = '\0';
+        }
+
+        public Contact(string personName, string personId, int age, string mobileNumber, char gender)
+        {
+            this.personName = personName;
+            this.personId = personId;
+            this.age = age;
+            this.mobileNumber = mobileNumber;
+            this.gender = gender;
+        }
+
+        public int Age
+        {
+            get { return this.age; }
+            set { this.age = value; }
+        }
+
+        public string PersonName
+        {
+            set
+            {
+                this.personName = value;
+            }
+            get
+            {
+                return this.personName;
+            }
+        }
+
+        public string PersonID
+        {
+            set
+            {
+                this.personId = value;
+            }
+            get
+            {
+                return this.personId;
+            }
+        }
+
+        public string MobileNumber
+        {
+            set
+            {
+                this.mobileNumber = value;
+            }
+            get
+            {
+                return this.mobileNumber;
+            }
+        }
+
+        public char Gender
+        {
+            set
+            {
+                this.gender = value;
+            }
+            get
+            {
+                return this.gender;
+            }
+        }
+
+        public void DetectMobileOperator()
+        {
+            if (this.mobileNumber.Substring(0, 3).Equals("017"))
+            {
+                Console.WriteLine("Your Operator is GrameenPhone");
+            }
+            else if (this.mobileNumber.Substring(0, 3).Equals("013"))
+            {
+                Console.WriteLine("Your Operator is GrameenPhone");
+            }
+
+            else if (this.mobileNumber.Substring(0, 3).Equals("019"))
+            {
+                Console.WriteLine("Your Operator is Banglalink");
+            }
+            else if (this.mobileNumber.Substring(0, 3).Equals("016"))
+            {
+                Console.WriteLine("Your Operator is Airtel");
+            }
+            else if (this.mobileNumber.Substring(0, 3).Equals("018"))
+            {
+                Console.WriteLine("Your Operator is Robi");
+            }
+            else if (this.mobileNumber.Substring(0, 3).Equals("015"))
+            {
+                Console.WriteLine("Your Operator is Teletalk");
+            }
+
+            else
+            {
+                Console.WriteLine("No Such Operator Available");
+            }
+        }
+
+        public void ShowPersonInfo()
+        {
+            Console.WriteLine("Name : {0}\nID : {1}\nAge : {2}\nMobile Number : {3}\nGender : {4}", this.personName, this.personId, this.age, this.mobileNumber, this.gender);
+            DetectMobileOperator();
+            Console.WriteLine();
+        }
+
+    }
+}
+
+
+
+
+
+using System;
+
+namespace lab4_Contact
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Contact c1 = new Contact("Anila", "876", 21, "01698765432", 'M');
+            c1.ShowPersonInfo();
+            Contact c2 = new Contact();
+            c2.PersonName = "Tahmina";
+            c2.PersonID = "567";
+            c2.Age = 22;
+            c2.MobileNumber = "01567890987";
+            c2.Gender = 'F';
+            c2.ShowPersonInfo();
+        }
+
+    }
+}
+
+
+*********************************************************************************************************
+
+Lab4_4(Course)
+
+using System;
+
+
+namespace lab4_Course
+{
+    class Course
+    {
+        private string courseName;
+        private string courseCode;
+        private int courseCredit;
+
+        public Course()
+        {
+            courseName = "";
+            courseCode = "";
+            courseCredit = 0;
+        }
+
+        public Course(string courseName, string courseCode, int courseCredit)
+        {
+            this.courseName = courseName;
+            this.courseCode = courseCode;
+            this.courseCredit = courseCredit;
+        }
+
+        public string Cname
+        {
+            set
+            {
+                this.courseName = value;
+            }
+            get
+            {
+                return this.courseName;
+            }
+        }
+        public string Ccode
+        {
+            set
+            {
+                this.courseCode = value;
+            }
+            get
+            {
+                return this.courseCode;
+            }
+        }
+        public int ccredit
+        {
+            set
+            {
+                this.courseCredit = value;
+            }
+            get
+            {
+                return this.courseCredit;
+            }
+        }
+
+
+        public void ShowCourseInfo()
+        {
+            Console.WriteLine("Course Code:{0}", this.courseCode);
+            Console.WriteLine("Course Name:{0}", this.courseName);
+            Console.WriteLine("Credit(s):{0}", this.courseCredit);
+
+        }
+    }
+}
+
+
+
+using System;
+
+
+namespace lab4_Course
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Course c1 = new Course();
+            c1.Cname = "Discrete Mathematics";
+            c1.Ccode = "CSC1204";
+            c1.ccredit = 3;
+            c1.ShowCourseInfo();
+            Console.WriteLine();
+            Course c2 = new Course();
+            c2.Cname = "Algorithms";
+            c2.Ccode = "CSC2211";
+            c2.ccredit = 3;
+            c2.ShowCourseInfo();
+            Console.WriteLine();
+            Course c3 = new Course("Data Structure", "CSC2107", 3);
+            c3.ShowCourseInfo();
+        }
+
+    }
+}
+
+******************************************************************************************************
+
+Lab4_5(Mobile)
+
+using System;
+
+
+namespace lab4_Mobile
+{
+    class Mobile
+    {
+        private string mobileOwnerName;
+        private string mobileNumber;
+        private string mobileBalance;
+        private string mobileOSName;
+        private bool locked;
+
+        public Mobile()
+        {
+            mobileOwnerName = "";
+            mobileNumber = "";
+            mobileBalance = "";
+            mobileOSName = "";
+            locked = false;
+        }
+
+        public Mobile(string mobileOwnerName, string mobileNumber, string mobileBalance, string mobileOSName, bool locked)
+        {
+            this.mobileOwnerName = mobileOwnerName;
+            this.mobileNumber = mobileNumber;
+            this.mobileBalance = mobileBalance;
+            this.mobileOSName = mobileOSName;
+            this.locked = locked;
+        }
+
+        public string MobileOwnerName
+        {
+            set
+            {
+                this.mobileOwnerName = value;
+            }
+            get
+            {
+                return this.mobileOwnerName;
+            }
+        }
+
+        public string MobileNumber
+        {
+            set
+            {
+                this.mobileNumber = value;
+            }
+            get
+            {
+                return this.mobileNumber;
+            }
+        }
+
+        public string MobileBalance
+        {
+            set
+            {
+                this.mobileBalance = value;
+            }
+            get
+            {
+                return this.mobileBalance;
+            }
+        }
+
+        public string MobileOSName
+        {
+            set
+            {
+                this.mobileOSName = value;
+            }
+            get
+            {
+                return this.mobileOSName;
+            }
+        }
+
+        public bool LockStatus
+        {
+            set
+            {
+                this.locked = value;
+            }
+            get
+            {
+                return this.locked;
+            }
+        }
+
+        public void Recharge(int amount)
+        {
+            int balance = int.Parse(this.mobileBalance);
+            Console.WriteLine("Unlock Phone?");
+            char c = Convert.ToChar(Console.ReadLine());
+
+            if (c == 'y' || c == 'Y')
+            {
+                locked = false;
+            }
+            else
+            {
+                locked = true;
+            }
+
+            if (amount > 0 && locked == false)
+            {
+                balance += amount;
+                this.mobileBalance = balance.ToString();
+                Console.WriteLine("{0} Taka Recharged Successfully", amount);
+            }
+            else if (amount < 0)
+            {
+                Console.WriteLine("Amount cannot be zero");
+            }
+            else if (locked == true)
+            {
+                Console.WriteLine("Unlock the Phone First");
+            }
+        }
+
+        public void CallSomeone(int timeDuration)
+        {
+            Console.WriteLine("\nCalling Someone");
+            Console.WriteLine("Unlock Phone?");
+            char c = Convert.ToChar(Console.ReadLine());
+
+            if (c == 'y' || c == 'Y')
+            {
+                locked = false;
+            }
+            else
+            {
+                locked = true;
+            }
+
+            if (!locked)
+            {
+                int perminutecost = 1;
+                int totalAmountCosted = perminutecost * timeDuration;
+                int balance = int.Parse(this.mobileBalance);
+                balance -= totalAmountCosted;
+                this.mobileBalance = balance.ToString();
+                Console.WriteLine("After {0} minute call your current balance is {1}", timeDuration, this.mobileBalance);
+            }
+            else
+                Console.WriteLine("Unlock the Phone First");
+        }
+
+        public void ShowInfo()
+        {
+
+            if (!locked)
+            {
+                Console.WriteLine("Mobile Owner : {0}", this.mobileOwnerName);
+                Console.WriteLine("Number : {0}", this.mobileNumber);
+                Console.WriteLine("Balance : {0}", this.mobileBalance);
+                Console.WriteLine("Lock Status : {0}", this.locked);
+            }
+            else
+            {
+                Console.WriteLine("Unlock the Phone First!");
+            }
+        }
+
+    }
+
+}
+
+
+
+
+using System;
+
+
+namespace lab4_Mobile
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Mobile m1 = new Mobile("Anika", "01678987654", "199", "ios", false);
+            m1.ShowInfo();
+            Console.WriteLine();
+            m1.Recharge(50);
+            Console.WriteLine();
+            Console.WriteLine("After Recharge");
+            m1.ShowInfo();
+            m1.CallSomeone(15);
+            Console.WriteLine("\nAfter a Call");
+            Console.WriteLine();
+            m1.ShowInfo();
+        }
+
+    }
+}

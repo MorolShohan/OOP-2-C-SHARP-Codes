@@ -1,0 +1,8 @@
+D:\ALL CODES\C#\EcponentMethod\bin\Debug\EcponentMethod.exe.config
+D:\ALL CODES\C#\EcponentMethod\bin\Debug\EcponentMethod.exe
+D:\ALL CODES\C#\EcponentMethod\bin\Debug\EcponentMethod.pdb
+D:\ALL CODES\C#\EcponentMethod\obj\Debug\EcponentMethod.csproj.AssemblyReference.cache
+D:\ALL CODES\C#\EcponentMethod\obj\Debug\EcponentMethod.csproj.SuggestedBindingRedirects.cache
+D:\ALL CODES\C#\EcponentMethod\obj\Debug\EcponentMethod.csproj.CoreCompileInputs.cache
+D:\ALL CODES\C#\EcponentMethod\obj\Debug\EcponentMethod.exe
+D:\ALL CODES\C#\EcponentMethod\obj\Debug\EcponentMethod.pdb

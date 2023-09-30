@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "52cfdee8-e80b-4fd0-9047-d7774aa0d692": {
+      "ProjectGuid": "52cfdee8-e80b-4fd0-9047-d7774aa0d692",
+      "DisplayName": "4stepCalculator",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

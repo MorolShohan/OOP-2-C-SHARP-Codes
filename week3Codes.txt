@@ -1,0 +1,275 @@
+lab 01 
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Week3CharpLabTask1
+{
+    internal class Student
+    {
+        private string name;
+        private string id;
+        private string dept;
+        private float cgpa;
+
+        public string Name
+        { get { return name; } set { name = value; } }
+        public string Id
+        { get { return id; } set { id = value; } }
+        public float Cgpa
+        { get { return cgpa; } set => cgpa = value; }
+        public string Dept
+        { get { return dept; } set { dept = value; } }
+
+        public void showinfo()
+        {
+            Console.WriteLine(name);
+            Console.WriteLine(id);  
+            Console.WriteLine(dept);
+            Console.WriteLine(cgpa);
+        }
+
+
+
+    }
+}
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Week3CharpLabTask1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Student student = new Student();
+            student.Name = "shohan";
+            student.Id = "20-44038-2";
+            student.Dept = "CSE";
+            student.Cgpa = 3.79f;
+
+            student.showinfo();
+            
+
+        }
+    }
+}
+
+********************************************************
+
+ Lab3_2 (Triangle)
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace lab3_Triangle
+{
+    class Triangle
+    {
+
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter First Number for Triangle: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Sceond Number Triangle: ");
+            int y = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter thired Number Triangle: ");
+            int z = Convert.ToInt32(Console.ReadLine());
+
+            if (x == y && y == z && x == z)
+            {
+                Console.WriteLine("Equilater");
+            }
+            else if (x != y && y == z && x != z)
+            {
+                Console.WriteLine("isosceles");
+            }
+            else if (z != x && y == x && z != y)
+            {
+                Console.WriteLine("isosceles");
+            }
+            else if (x != y && x == z && y != z)
+            {
+                Console.WriteLine("isosceles");
+            }
+            else if (x != y && y != z && x != z)
+            {
+                Console.WriteLine("scanlene");
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
+
+***************************************************
+
+lab 03
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Week3Task3
+{
+    internal class Account
+    {
+        private string accName;
+        private string acid;
+        private int balance;
+
+        public string AccName
+        { get { return accName; } set { accName = value; } }
+        public string Acid
+        { get { return acid; } set { acid = value; } }
+
+        public int Balance
+        { get { return balance; } set { balance = value; } }
+
+        int newBalance;
+
+        public void Deposit(int amount)
+        {
+           newBalance = balance + amount;
+            Console.WriteLine("After depositing 1200 your new balance " +newBalance);
+
+            
+
+        }
+
+        public void Withdraw(int amount)
+        {
+          newBalance = balance - amount; 
+            Console.WriteLine("After withdrawing 1500 remaining balance "+newBalance);
+        }
+
+        public void showinfo()
+        {
+            Console.WriteLine(accName);
+            Console.WriteLine(acid);
+            Console.WriteLine("Previous Balance " +balance);
+        }
+
+    }
+}  
+   
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Week3Task3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Account account = new Account();
+            Console.WriteLine("Enter Account Name");
+            account.AccName = Console.ReadLine();
+            Console.WriteLine("Enter account ID");
+            account.Acid = Console.ReadLine();
+            Console.WriteLine("Enter your balance");
+            account.Balance = System.Convert.ToInt32((Console.ReadLine()));
+
+                
+            // account.Balance = 12000;
+
+            account.showinfo();
+            account.Withdraw(1500);
+            account.Deposit(1200);
+            
+
+        }
+    }
+}
+
+
+*****************************************************
+
+
+lab 04 
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Week3Task4
+{
+    internal class Course
+    {
+        private string courseName;
+        private string courseCode;
+        private int courseCredit;
+
+        public string CourseName
+        {
+            get { return courseName; }
+            set { courseName = value; }
+        }
+        public string CourseCode
+        {
+            get { return courseCode; }
+            set { courseCode = value; }
+        }
+        public int CourseCredit
+        {
+            get { return courseCredit; }
+            set { courseCredit = value; }
+        }
+
+        public void showCourseInfo()
+        {
+            Console.WriteLine(CourseName);
+            Console.WriteLine(CourseCode);
+            Console.WriteLine(CourseCredit);
+
+        }
+    }
+}
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Week3Task4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Course course = new Course();
+            course.CourseName = "C#";
+            course.CourseCredit = 3;
+            course.CourseCode = "CS-1223";
+
+            course.showCourseInfo();
+        }
+    }
+}
+
+
+
